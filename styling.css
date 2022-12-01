@@ -1,0 +1,137 @@
+h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: center;
+    line-height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: palevioletred;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    background: grey;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 10px;
+    text-align: left;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: beige;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: beige;
+    background: darkgray;
+}
+ul li ul.dropdown{
+display: none;
+position: absolute;
+min-width: 100%;
+z-index: 1;
+left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: inline-block;
+}
+.image{
+    image-resolution: 100%;
+    margin-left: 300px;
+    display: block;
+    width: 650px;
+    height: 350px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightpink;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    padding: 5px 7.5px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 0px;
+  }
+.cells{
+    position: relative;
+    color: darkslategrey;
+    font-family: fantasy;
+    list-style: disc;
+    text-align: left;
+  }
+  #carousel {
+    padding-left: 100px;
+    height: 150px;
+    background-color: lightpink;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+.previous {
+  background-color: indianred;
+  color: white;
+  border-radius: 50%;
+}
+
+.next {
+  background-color: indianred;
+  color: white;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+h3{
+  font-family: cursive;
+  font-size: x-large;
+}

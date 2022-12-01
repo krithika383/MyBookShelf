@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neophyte Reads</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>   
+         <h2>Happy Reading !!!</h2>
+         <ul>
+            <li><a href="https://www.google.com/search?client=firefox-b-d&q=list+of+fiction+books">Fiction</a>
+            <ul class="dropdown">
+                <li><a href="#">The Alchemist</a></li>
+                <li><a href="#">David copperfield</a></li>
+            </ul>
+        </li>
+            <li><a href="https://www.goodreads.com/list/tag/selfhelp">Self Help</a>
+                <ul class="dropdown">
+                    <li><a href="#">Atomic habits</a></li>
+                    <li><a href="#">Mindset</a></li>
+                </ul></li>
+            <li><a href="https://www.goodreads.com/list/tag/romance">Romance</a>
+                <ul class="dropdown">
+                    <li><a href="#">Fault in our stars</a></li>
+                    <li><a href="#">Sputnik sweetheart</a></li>
+                </ul></li>
+            <li><a href="https://www.goodreads.com/list/tag/mystery">Crime</a>
+                <ul class="dropdown">
+                    <li><a href="#">Dan brown</a></li>
+                    <li><a href="#">Da vinci code</a></li>
+                </ul></li>
+        </ul>
+         <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">My Reading journey</a>
+            <a href="#">My Book Collection</a>
+            <a href="#">How reading benefitted me</a>
+          </div>
+
+          <div id="main" width="10px">
+            <button class="openbtn" onclick="openNav()">&#9776 Menu</button>  
+            </div>
+            <script>
+                function openNav() {
+                  document.getElementById("mySidebar").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidebar").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+                </script>
+       
+       <img src="images/front-page.jpg" width="850px" height="400px" class="image">
+       <table class="homepage">
+        <tbody>
+            <tr>
+                <td>
+                    <h3>What's inside ?</h3>
+                    <ol class="cells">
+                        <li>Reviews and ratings for books</li>
+                        <li>Quotes from books</li>
+                        <li>Me and Books</li>
+                        <li>More about BOOKS!!</li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+       </table>
+       <h2>Best of all my reads</h2>
+       <div id="carousel">
+        <a href="#" class="previous">&#8249;</a>
+        <div class="slide">
+            <img src="images/gvgl.jpg" width="200px" height="150px">
+        </div>
+        <div class="slide">
+            <img src="images/rudest_book.jpeg" width="200px" height="150px">
+        </div>
+        <div class="slide">
+            <img src="images/morrie.jpg" width="200px" height="150px">
+        </div>
+        <div class="slide">
+            <img src="images/thinkLikeAMonk.jpg" width="200px" height="150px">
+        </div>
+        <div class="slide">
+            <img src="images/midnightlibrary.jpg" width="200px" height="150px">
+        </div>
+        <a href="#" class="next">&#8250;</a>
+       </div>
+      
+    </header>
+</body>
+</html>
