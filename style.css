@@ -12,6 +12,7 @@ ul{
     padding: 0;
     list-style: none;
     background: grey;
+    font-family: cursive;
 }
 ul li{
     display: inline-block;
@@ -35,6 +36,7 @@ position: absolute;
 min-width: 100%;
 z-index: 1;
 left: 0;
+font-family: cursive;
 }
 ul li:hover ul.dropdown{
     display: block;	/* Display the dropdown */
@@ -134,4 +136,15 @@ a {
 h3{
   font-family: cursive;
   font-size: x-large;
+}
+
+.slider{
+  background-color: indianred;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+    bottom: 50%;
+    position: relative;
 }
